@@ -1,0 +1,76 @@
+body {
+	background-color: #0f63a8;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	padding: 100px;
+	gap: 50px;
+}
+
+.list {
+	border: 1px solid #100f0f;
+	border-radius: 5px;
+	padding: 10px;
+	width: 200px;
+	min-height: 200px;
+	background-color: #3080e9;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	/* align-items: center; */
+}
+
+h3 {
+	text-align: center;
+	color: #fff;
+	border-radius: 10px;
+	background-color: rgb(54, 54, 218);
+}
+
+button {
+	text-align: center;
+	width: 80px;
+	height: 30px;
+	background-color: #21526b;
+	color: #fffefe;
+	margin-left: 80px;
+}
+
+.list ul {
+	list-style: none;
+}
+
+.list li {
+	padding: 5px;
+	margin: 20px 10px;
+	border: 1px solid #171717;
+	border-radius: 5px;
+	height: 40px;
+	color: #ffffff;
+	text-align: center;
+	background-color: #0769c0ae;
+}
+
+.add-task {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.add-task input {
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.add-task button {
+	padding: 5px 10px;
+	background-color: #4caf50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
